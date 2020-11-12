@@ -1,0 +1,137 @@
+td{
+  text-align: center;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 80px;
+  text-decoration: none;
+  margin: 5;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 80px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 5;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(238, 255, 5);
+  color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 80px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.navbar a:last-child {
+  border-right: none;
+  float: right;
+}
+
+.box{
+  height:300px;
+  width:80%;
+  margin-left:40;
+  margin-top:80;
+  margin-bottom: 80;
+  padding: 10;
+  background-color:rgb(234, 243, 113);
+  box-shadow: 0px 0px 10px 2px grey;
+  background-size:cover;
+  opacity:0.8;
+  overflow:hidden;
+  float: left;
+  z-index:-1;
+}
+
+.box img{
+	z-index: 1;
+  opacity: 1;
+  margin-left: 5;
+  margin-top: 20;
+}
+.box p{
+	text-align: center;
+	font-size: 20px;
+}
+
+.box img:hover{
+	transform: scale(1.1);
+}
+
+.logobox{
+  background-color:white;
+  opacity: 0.8;
+}
+
+.tablebox{
+  background-color:white;
+  opacity: 0.8;
+  size: 100 px;
+}
+
+.foot{
+  overflow:hidden;
+  background-color: white;
+  z-index:-1;
+  opacity: 0.8;
+}
+.foot img{
+  padding-left:50px;
+  transition:0.5s;
+  transition-property:all;
+  z-index:1;
+  margin-right: 50;
+  float:center;
+}
+.foot img:hover{
+  transform:scale(1.1);
+  z-index:1;
+  opacity:100%
+}
+.foot h3{
+  text-align: center;
+}
+
